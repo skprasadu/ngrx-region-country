@@ -1,27 +1,19 @@
 # RabbitmqAngularUi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+This is a  Angular project that displays a list of regions, countries and a simple table using Angular, TypeScript, Observables and NGRX.APIs
 
-## Development server
+Currently it loads the JSON locally for country information, but in real life it can use a web service that returns country and region information.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This application should allow the user to navigate to a country based on a region and display some simple information.
 
-## Code scaffolding
+* Create a drop down that contains the “Region”.
+* On selecting the region a second drop down should be enabled and populated with “Countries” 
+* On selecting the “Country” display a simple table that contains the 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ * Name
+ * Capital
+ * Population
+ * Currencies
+ * FlagComponent 
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+In order for you to run, you need to do `npm install` and than run `ng serve`. The prereqs for this project is Angular, NGRX. It also need node and npm.
