@@ -1,4 +1,4 @@
-# RabbitmqAngularUi
+# Region/ Country Angular/ NgRX Ui
 
 This is a  Angular project that displays a list of regions, countries and a simple table using Angular, TypeScript, Observables and NGRX.
 
