@@ -10,10 +10,10 @@ This application should allow the user to navigate to a country based on a regio
 * On selecting the region a second drop down should be enabled and populated with “Countries” 
 * On selecting the “Country” display a simple table that contains the 
 
- * Name
- * Capital
- * Population
- * Currencies
- * FlagComponent 
+    * Name
+    * Capital
+    * Population
+    * Currencies
+    * FlagComponent 
 
 In order for you to run, you need to do `npm install` and than run `ng serve`. The prereqs for this project is Angular, NGRX. It also need node and npm.
