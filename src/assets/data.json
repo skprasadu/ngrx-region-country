@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Mexico",
+        "capital": "Mexico city",
+        "population": "100",
+        "currencies": "Peicoses",
+        "flag": "horizontal bar",
+        "region": "South America"
+    },
+    {
+        "name": "Brazil",
+        "capital": "Rio",
+        "population": "200",
+        "currencies": "BD",
+        "flag": "vertical bar",
+        "region": "South America"
+    },
+    {
+        "name": "Costa Rica",
+        "capital": "CR",
+        "population": "300",
+        "currencies": "Peicoses",
+        "flag": "criscross",
+        "region": "South America"
+    },
+    {
+        "name": "Canada",
+        "capital": "Toranto",
+        "population": "400",
+        "currencies": "CD",
+        "flag": "maple",
+        "region": "North America"
+    },
+    {
+        "name": "United States",
+        "capital": "New York",
+        "population": "500",
+        "currencies": "USD",
+        "flag": "george washington",
+        "region": "North America"
+    }
+
+]

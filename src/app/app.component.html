@@ -1,0 +1,21 @@
+<h2>{{ title }}</h2>
+
+<select #regionSelect (change)='getData(regionSelect.value)'>
+    <option *ngFor="let region of regions">{{region}}</option>
+</select>
+
+<select #countrySelect (change)='getSelectedCountry(countrySelect.value)'>
+    <option *ngFor="let country of (selectedCountriesBasedOnRegion$ | async )">{{country}}</option>
+</select>
+
+<div>Selected Region: {{ selectValRegion$ | async  }}</div>
+<div>Selected Country: {{ selectValCountry$ | async  }}</div>
+
+<table *ngIf="selectedCountryName$">
+    <tr><td>Name</td><td>{{ selectedCountryName$ | async  }}</td></tr>
+    <tr><td>Capital</td><td>{{ selectedCountryCapital$ | async  }}</td></tr>
+    <tr><td>Population</td><td>{{ selectedCountryPopulation$ | async }}</td></tr>
+    <tr><td>Currencies</td><td>{{ selectedCountryCurrencies$ | async  }}</td></tr>
+    <tr><td>Flag</td><td>{{ selectedCountryFlag$ | async }}</td></tr>
+</table>
+
