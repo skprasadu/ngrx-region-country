@@ -20,10 +20,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'rabbitmq-angular-ui'`, () => {
+  it(`should have as title 'Region Country Angular UI'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('rabbitmq-angular-ui');
+    expect(app.title).toEqual('Region Country Angular UI');
   });
 
   it('should render title', () => {

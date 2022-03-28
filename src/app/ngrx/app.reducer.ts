@@ -1,5 +1,5 @@
 import { createReducer, on } from '@ngrx/store';
-import { selectValueCountry, selectValueRegion } from './counter.actions';
+import { selectValueCountry, selectValueRegion } from './app.actions';
 
 export class RequestState {
   selectedCountry!: string;

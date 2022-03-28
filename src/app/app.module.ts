@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { selectValReducer } from './counter.reducer';
+import { selectValReducer } from './ngrx/app.reducer';
+import { RegionCountryComponentComponent } from './region-country-component/region-country-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RegionCountryComponentComponent
   ],
   imports: [
     BrowserModule,
@@ -22,6 +24,7 @@ import { selectValReducer } from './counter.reducer';
       autoPause: true, // Pauses recording actions and state changes when the extension window is not open
     })
   ],
+  exports: [RegionCountryComponentComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
