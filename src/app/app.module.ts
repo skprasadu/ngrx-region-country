@@ -25,7 +25,7 @@ import { RegionCountryComponentComponent } from './region-country-component/regi
     })
   ],
   exports: [RegionCountryComponentComponent],
-  providers: [],
+  providers: [HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
