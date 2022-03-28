@@ -1,6 +1,6 @@
 <h2>{{ title }}</h2>
 
-<select #regionSelect (change)='getData(regionSelect.value)'>
+<select #regionSelect (change)='getSelectedRegion(regionSelect.value)'>
     <option *ngFor="let region of regions">{{region}}</option>
 </select>
 
